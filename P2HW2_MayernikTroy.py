@@ -1,4 +1,4 @@
-#Your Name
+#Troy Mayernik
 #09/27/2026
 #P2HW2 - List
 #This program asks the user to enter six module grades,
@@ -36,8 +36,9 @@ sum_grades = sum(grades)
 average_grade = sum_grades / len(grades)
 
 print()
-print("----------Results----------")
-print(f"Lowest Grade: {lowest_grade:.1f}")
-print(f"Highest Grade: {highest_grade:.1f}")
-print(f"Sum of Grades: {sum_grades:.1f}")
-print(f"Average: {average_grade:.2f}")
+print("-------------Results-------------")
+print(f"Lowest Grade:     {lowest_grade:.1f}")
+print(f"Highest Grade:    {highest_grade:.1f}")
+print(f"Sum of Grades:    {sum_grades:.1f}")
+print(f"Average:          {average_grade:.2f}")
+print("---------------------------------")
